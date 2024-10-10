@@ -1,0 +1,105 @@
+@font-face {
+    font-family: FigtreeItalic;
+    src: url("./assets/Figtree-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url("./assets/Figtree-VariableFont_wght.ttf");
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #F4D04E;
+    font-family: Figtree;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+p, h2 {
+    margin: 0;
+}
+
+.main {
+    width: 336px;
+    height: fit-content;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 8px 8px 0px 0px #000;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#italicParagraph {
+    font-family: FigtreeItalic;
+    color: #6B6B6B;
+}
+
+#image {
+    margin: 0;  
+}
+
+#image > svg {
+    border-radius: 10px;
+}
+
+#profPic {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+#profPic > img {
+    width: 32px;
+    height: 32px;
+}
+
+#profPic > p {
+    display: flex;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#yellowBlock {
+    background-color:#F4D04E;
+    font-weight: bold;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#yellowBlock > p {
+    margin: 0;
+}
+
+#published {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#foundations:hover {
+   color: #F4D04E;
+   cursor: pointer;
+}
